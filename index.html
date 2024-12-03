@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBoxPlanes</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        h1{
+            text-align: center;
+            color: white;
+
+        }
+        #planes{
+            padding: 5% 5%;
+            border: 1px solid white;
+            height: 80%;
+            text-align: center;
+            display: flex; /*importante que este en el padre*/
+            justify-content:space-around;
+        }
+
+        h3{
+            color: blue;
+        }
+
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+
+        .plan{
+            padding: 2%;
+            background-color: white;
+            border-radius: 5%;
+            height: 60%;
+            width: 25%;
+        }
+
+        .precio{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Elija el plan mas adecuado y disfrute de nuestro plan mas adecuado</h1>
+    <div id="planes" >
+        <div class="plan" >
+            <h3>Principiante</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, animi velit doloremque consectetur eius dolorum aliquam nisi, eligendi aspernatur laborum dignissimos quis laudantium dolorem pariatur quia quam. Earum, hic rem?</p>
+            <p class="precio" >10€/mes</p>
+            <a href="">Elegir</a>
+
+        </div>
+        <div class="plan" >
+            <h3>Básico</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cupiditate facilis voluptatum cum pariatur quasi dolor veniam debitis et eius, quae impedit eligendi assumenda minus facere amet rerum non sed.</p>
+            <p class="precio" >30€/mes</p>
+            <a href="">Elegir</a>
+
+        </div>
+        <div class="plan" >
+            <h3>Profesional</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rem laborum dignissimos, odit nisi dicta deleniti nobis, aliquam incidunt officia nemo ipsum unde neque vitae repellat veniam consequuntur labore libero!</p>
+            <p class="precio" >40€/mes</p>
+            <a href="">Elegir</a>
+        </div>
+    </div>
+
+    
+</body>
+</html>
